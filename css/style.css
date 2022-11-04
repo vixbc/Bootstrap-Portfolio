@@ -25,6 +25,26 @@ h1, h2, h3, h4, h5, h6, p, a {
     padding-right: 1%;
 }
 
-.navbar-nav {
-    text-align: right;
+.nav-link {
+    color: var(--highlight);
 }
+
+.nav-item :hover{
+    background-color: var(--accent);
+    color: var(--accent-text);
+    text-decoration: underline var(--highlight);
+}
+
+
+/* hero */
+
+.header {
+    /* position: absolute; */
+    background-size: cover;
+    background-image: linear-gradient(rgba(66, 145, 209, 0.5), rgba(68, 181, 201, 0.5)), url("../images/02-hero-bg.jpg");
+}
+
+#hero {
+    background: var(--accent);
+}
+

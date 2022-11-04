@@ -1,0 +1,30 @@
+:root{
+    --accent: #63f5e2;
+    --accent-text: rgb(42, 48, 48);
+    --page-bck: white;
+    --highlight: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--accent-text);
+  }
+  
+
+/* nav bar style */
+.navbar-brand {
+    font-weight: 800;
+    background-color: var(--accent);
+    padding-left:3% ;
+    padding-right: 1%;
+}
+
+.navbar-nav {
+    text-align: right;
+}

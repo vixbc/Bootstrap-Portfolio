@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6, p, a {
   
 
 /* nav bar style */
+nav {
+    display: block;
+}
+
 .navbar-brand {
     font-weight: 800;
     background-color: var(--accent);
@@ -39,12 +43,22 @@ h1, h2, h3, h4, h5, h6, p, a {
 /* hero */
 
 .header {
-    /* position: absolute; */
+    display: block;
     background-size: cover;
     background-image: linear-gradient(rgba(66, 145, 209, 0.5), rgba(68, 181, 201, 0.5)), url("../images/02-hero-bg.jpg");
 }
 
 #hero {
     background: var(--accent);
+    padding: 5px;
 }
 
+/* content */
+#main-content {
+    position: block;
+}
+
+.row-header {
+    font-size: 47px;
+    color: var(--accent-text);
+}

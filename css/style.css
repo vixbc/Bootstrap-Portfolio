@@ -58,9 +58,35 @@ nav {
     position: block;
 }
 
+#headshot{
+    height: 200px ;
+    border-radius: 13px ;
+}
+
 .row-header {
     font-size: 47px;
     color: var(--accent-text);
 }
 
-.card-img {}
+.card-group {
+    display: flex;
+}
+
+#work-card {
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5px;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+#work-card:hover {
+    opacity: 1;
+}
+
+.card-title, .card-text {
+    display: block;
+    position:relative;
+    background-color:var(--accent);
+    opacity:1;
+ }
